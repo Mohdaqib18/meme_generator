@@ -73,11 +73,15 @@ button{
 
 .meme {
   position: relative;
+  max-width: 50%;
+  margin: 0 auto;
+  height: 500px;
 }
 
 .meme--image {
-  max-width: 100%;
+  width: 100%;
   border-radius: 3px;
+  height: 100%;
 }
 
 .meme--text {
